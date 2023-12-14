@@ -112,6 +112,8 @@ public class BestBuywrappers extends Sewrappers1{
 	}
 	
 	public void allMenus() {
+		
+		//all menus
 		HomePage1 homePage1 = PageFactory.initElements( driver,HomePage1.class);
 		AllmenusPage allmenus = PageFactory.initElements( driver,AllmenusPage.class);
 		homePage1.clickCountry();
@@ -127,7 +129,13 @@ public class BestBuywrappers extends Sewrappers1{
 		String giftideas= driver.getTitle();
 		System.out.println(giftideas);
 		navigateBack();
+		allmenus.clickTopideas();
+		String topideas= driver.getTitle();
+		System.out.println(topideas);
+		navigateBack();
+		
 	
+		
 	}
 	}
 

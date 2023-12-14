@@ -16,6 +16,9 @@ public class AllmenusPage extends Sewrappers1{
 	@FindBy(xpath="//a[@data-lid='hdr_gift_ideas']")
 	public WebElement Giftideas;
 	
+	@FindBy(xpath="//a[@data-lid='hdr_td_topdeals']")
+	public WebElement Topideas;
+	
 	
 	
 	public void clickHolidaymenu() {
@@ -38,5 +41,13 @@ public void clickGiftideas() {
 	clickElement(Giftideas);
 	
 }
+
+public void clickTopideas() {
+	
+	waitForElement(Topideas,20);
+	clickElement(Topideas);
+	
+}
+
 
 }
