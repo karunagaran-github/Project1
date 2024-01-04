@@ -20,6 +20,8 @@ public class Testcase6 extends Sewrappers1{
 		launchBrowser("https://www.bestbuy.com/");
 		
 		B1.checkOut("ashwinshre@gmail.com","Ashwin@99");
+		closeAllBrowsers();
+
 }
 
 }

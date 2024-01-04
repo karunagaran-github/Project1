@@ -21,5 +21,7 @@ public class Testcase5 extends Sewrappers1 {
 		launchBrowser("https://www.bestbuy.com/");
 		
 		B1.menu_shopByBrands();
+		closeAllBrowsers();
+
 }
 }

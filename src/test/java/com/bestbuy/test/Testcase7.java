@@ -18,6 +18,7 @@ public class Testcase7 extends Sewrappers1{
 		report1.setTCDesc("Validating best buy url");
 		launchBrowser("https://www.bestbuy.com/");
 		validateLink("https://www.bestbuy.com/");
-		
+		closeAllBrowsers();
+
 }
 }

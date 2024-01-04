@@ -20,7 +20,8 @@ public class Testcase3 extends Sewrappers1{
 			launchBrowser("https://www.bestbuy.com/");
 			
 			B1.searchBox("pendrive");
-			
+			closeAllBrowsers();
+
 
 }
 }

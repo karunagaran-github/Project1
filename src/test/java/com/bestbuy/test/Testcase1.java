@@ -24,6 +24,8 @@ public class Testcase1 extends Sewrappers1{
 			B1.signup("karunagaran1","Elango","ashwinshre@gmail.com","Ashwin@99","Ashwin@99","6369993021");
 			//B1.test2("e.karunagaran.com","Nine+Twelve=21");
 			System.out.println("Success");
+			closeAllBrowsers();
+
 			
 	}
 	

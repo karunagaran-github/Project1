@@ -19,6 +19,7 @@ public class BestBuywrappers extends Sewrappers1{
 	homePage1.clickCountry();
 	homePage1.clickAccount();
 	homePage1.clickCreateAcc();
+	
 	}
 	
 	
@@ -34,7 +35,7 @@ public class BestBuywrappers extends Sewrappers1{
 	Acc.lastnameClick(lastname);
 	Acc.emailClick(email);
 	Acc.passwordClick(pwd);
-	System.out.println("ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd");
+	System.out.println("success");
 	Acc.conpasswordClick(conpwd);
 	Acc.phoneClick(ph);
 	Acc.cphoneClick();
@@ -44,10 +45,17 @@ public class BestBuywrappers extends Sewrappers1{
 	public void Signin(String lmail,String lpwd) {
 	SigninPage signin = PageFactory.initElements( driver,SigninPage.class);
 	
+	HomePage1 homePage1 = PageFactory.initElements( driver,HomePage1.class);
+	 
+	homePage1.clickCountry();
+	homePage1.clickAccount();
+	homePage1.clicksignin();
+	
 	
 	signin.sendEmail(lmail);
 	signin.sendpwd(lpwd);
 	signin.loginsub();
+	signin.captureScreenshot("Screenshot1st");
 	
 	}
 	
@@ -133,6 +141,12 @@ public class BestBuywrappers extends Sewrappers1{
 		String topideas= driver.getTitle();
 		System.out.println(topideas);
 		navigateBack();
+		allmenus.clickDealofDay();
+		String dealofday= driver.getTitle();
+		System.out.println(dealofday);
+		navigateBack();
+		
+		
 		
 	
 		

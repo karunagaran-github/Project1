@@ -20,10 +20,12 @@ public class Testcase8 extends Sewrappers1{
 	@Test
 	public void allMenus() throws InterruptedException{
 		
-			report1.setTCDesc("Validating best buy link and signup");
+			report1.setTCDesc("Validating best buy link screenshot");
 			launchBrowser("https://www.bestbuy.com/");
 			B1.allMenus();
-			
+			captureScreenshot("screen1");
+			closeAllBrowsers();
+
 			
 			
 			

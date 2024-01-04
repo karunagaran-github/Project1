@@ -16,8 +16,9 @@ public class HomePage1 extends Sewrappers1 {
 	@FindBy(partialLinkText="Create Account")
 	public WebElement createAcc;
 	
+	
 	@FindBy(linkText="Sign In")
-	public WebElement signup;
+	public WebElement signin;
 	
 	@FindBy(id="gh-search-input")
 	public WebElement Search;
@@ -45,9 +46,9 @@ public class HomePage1 extends Sewrappers1 {
 		clickElement(createAcc);
 	}
 	
-	public void clicksignup() {
-		waitForElement(signup,20);
-		clickElement(signup);
+	public void clicksignin() {
+		waitForElement(signin,20);
+		clickElement(signin);
 	}
 	
 	public void clicksearch(String se) {

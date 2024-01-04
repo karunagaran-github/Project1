@@ -21,9 +21,9 @@ public class Testcase2 extends Sewrappers1 {
 		
 			report1.setTCDesc("Validating signin");
 			launchBrowser("https://www.bestbuy.com/");
-			B1.launching();
 			B1.Signin("karunagaranelango@gmail.com","Nine+Twelve=21");
-			
+			closeAllBrowsers();
+
 			
 			
 	}

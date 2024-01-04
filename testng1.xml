@@ -6,7 +6,7 @@
 			<class name="com.bestbuy.utils.Sewrappers1" />
 			<class name="com.bestbuy.utils.BestBuywrappers" />
 			<class name="com.bestbuy.utils.BBreports" />
-			<class name="com.bestbuy.test.Testcase8" />
+			<class name="com.bestbuy.test.Testcase2" />
 		</classes>
 	</test> <!--
 	Test -->
